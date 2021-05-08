@@ -18,7 +18,7 @@ const Profile = () => {
             </div>
             <div className="profile__content">
                 <div className="profile__title">
-                    Emre Baskan
+                    Saad Qamar
                 </div>
                 <TypedText
                   dataText={
@@ -31,7 +31,7 @@ const Profile = () => {
                 />
                 <SocialLinks/>
                 <Info icon="location">
-                    KYIV / ISTANBUL
+                    Karachi / Pakistan
                 </Info>
                 <Skills />
             </div>
@@ -41,7 +41,7 @@ const Profile = () => {
                             Download CV
                         </span>
                 </a>
-                <a href="mailto:3mr3baskan@gmail.com">
+                <a href="mailto:saadqamar01@gmail.com">
                         <span>
                             Contact Me
                         </span>
