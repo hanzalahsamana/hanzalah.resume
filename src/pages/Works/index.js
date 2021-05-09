@@ -4,11 +4,11 @@ import Title from "../common/Title";
 import WorkItem from "./Item";
 import WorksMenu from "./Menu";
 
-const initalState = projects.filter(p => p.type === 'react');
+const initalState = projects.filter(p => p.type === 'angular');
 
 const Works = () => {
     const [selectedProjects, setSelectedProjects] = useState(initalState);
-    const [selectedType, setSelectedType] = useState('react');
+    const [selectedType, setSelectedType] = useState('angular');
 
     function handleMenuChange(type) {
         setSelectedProjects(projects.filter(p => p.type === type));
@@ -23,10 +23,10 @@ const Works = () => {
             </Title>
             <WorksMenu
                 items={[
-                    'react',
+                    // 'react',
                     'angular',
-                    'vue',
-                    'js'
+                    'react-native',
+                    'ionic'
                 ]}
                 selected={selectedType}
                 clicked={handleMenuChange}

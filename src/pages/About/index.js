@@ -11,7 +11,7 @@ const About = () => {
             <div className="row">
                 <div className="column">
                     <strong>
-                        Hi, I am Emre Baskan
+                        Hi, I am Saad Qamar
                     </strong>
                     <p>
                         Self-taught, self-driven, passionate learner and developer focusing on Angular, React, Vue, Node, and Java Technologies. Looking forward to working with ingenious teams on challenging projects.

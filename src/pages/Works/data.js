@@ -1,89 +1,52 @@
 export const projects = [
     {
-        title: 'React Portfolio',
-        images: [
-            'https://i.ibb.co/df557nk/Screenshot-5.png',
-            'https://i.ibb.co/M5kSTNB/Screenshot-6.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/react-portfolio',
-        demoLink: 'https://emrebaskan.netlify.app/',
-        type: 'react'
-    },
-    {
-        title: 'React Ecommerce App With Redux',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Ecommerce-App-with-Redux',
-        demoLink: 'http://numberless-leg.surge.sh/',
-        type: 'react'
-    },
-    {
-        title: 'Vue Ecommerce App With Vuex',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
-        demoLink: 'http://sincere-wind.surge.sh/',
-        type: 'vue'
-    },
-    {
-        title: 'Angular Ecommerce App With Ngrx',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Angular-Ecommerce-App-with-NGRX',
-        demoLink: 'http://delirious-coast.surge.sh/',
+        title: 'Team Center',
+        demoLink: 'http://team.center/',
         type: 'angular'
     },
     {
-        title: 'React Chat App With Redux And Firebase',
-        images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'react'
-    },
-    {
-        title: 'Angular Chat app',
-        images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
+        title: 'ICPlan',
+        demoLink: 'https://icplan.com/',
         type: 'angular'
     },
     {
-        title: 'RxJS Clone',
-        images: [
-            'https://i.ibb.co/KGsh7kM/Screenshot-7.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/rxjs-clone',
-        demoLink: 'https://stackblitz.com/edit/rxjs-clone?file=index.ts',
-        type: 'js'
+        title: 'Iraqi Souq',
+        demoLink: 'http://sdmictiq.com/',
+        type: 'angular'
     },
     {
-        title: 'Lodash Clone',
-        images: [
-            'https://www.agiliacenter.com/wp-content/uploads/2018/04/Lodash.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Lodash-Clone',
-        demoLink: '#',
-        type: 'js'
-    }
+        title: 'Frontier Signal',
+        demoLink: 'https://www.frontiersignal.com/',
+        type: 'angular'
+    },
+    {
+        title: 'kzbible',
+        demoLink: 'https://kzbible-dev.web.app/auth/login',
+        type: 'angular'
+    },
+    {
+        title: 'kzbible Feedback',
+        demoLink: 'https://kz-bible-feedback-dev.web.app',
+        type: 'angular'
+    },
+    {
+        title: 'Estenarh',
+        demoLink: 'https://play.google.com/store/apps/details?id=com.estenarh.app',
+        type: 'react-native'
+    },
+    {
+        title: 'Onege',
+        demoLink: 'https://play.google.com/store/apps/details?id=com.onege',
+        type: 'react-native'
+    },
+    {
+        title: 'Uchet',
+        demoLink: 'https://play.google.com/store/apps/details?id=com.uchet.ar&hl=en',
+        type: 'react-native'
+    },
+    {
+        title: 'Team Center',
+        demoLink: 'https://play.google.com/store/apps/details?id=com.team.center',
+        type: 'ionic'
+    },
 ]

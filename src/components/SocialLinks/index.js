@@ -5,19 +5,15 @@ const SocialLinks = () => {
     return (
         <div className="social">
             <SocialLinks.Link
-                url={'https://github.com/TheCoderDream'}
+                url={'https://github.com/syedsaadqamar'}
                 type={'github'}
             />
             <SocialLinks.Link
-                url={'https://www.linkedin.com/in/emrebaskan/'}
+                url={'https://www.linkedin.com/in/syed-saad-qamar/'}
                 type={'linkedin'}
             />
             <SocialLinks.Link
-                url={'https://t.me/emre6askan'}
-                type={'telegram'}
-            />
-            <SocialLinks.Link
-                url={'https://join.skype.com/invite/b7GMpyT187y8'}
+                url={'https://join.skype.com/invite/lbRysj6u1d6f'}
                 type={'skype'}
             />
         </div>

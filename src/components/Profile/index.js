@@ -6,6 +6,7 @@ import Info from "../Info";
 import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
+import profile from './../../assets/profile.jpg';
 
 const Profile = () => {
     const { backgroundImage, type } = useContext(ThemeContext);
@@ -14,7 +15,7 @@ const Profile = () => {
         <div className="profile">
             <div className="profile__banner">
                 <div className={`profile__photo ${animation}`} style={{backgroundImage: `url(${backgroundImage})`}} />
-                <img src="https://i.ibb.co/QPDLG6v/T4-CCV1-V4-G-UQ4-KGNEQ1-d074b7ae683a-512.jpg" alt={type} />
+                <img src={profile} alt={type} />
             </div>
             <div className="profile__content">
                 <div className="profile__title">
@@ -23,7 +24,7 @@ const Profile = () => {
                 <TypedText
                   dataText={
                       [
-                          'Senior JavaScript Engineer',
+                          'Lead JavaScript Engineer',
                           'Frontend Development',
                           'Backend Development'
                       ]

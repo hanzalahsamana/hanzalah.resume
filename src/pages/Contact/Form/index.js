@@ -39,16 +39,17 @@ const ContactForm = () => {
         async onSubmit(values) {
             try {
                 await emaijs.send(
-                    'gmail',
-                    'contact-form',
+                    'service_85cdgdx',
+                    'template_pd5y72i',
                     values,
-                    'user_ivLokzQVLoHuv1nbXEhJi');
+                    'user_F068JsII3a5zDIei4Kxhb');
                 form.resetForm();
                 setSuccessResult('Thank you! Your message has been successfully sent');
                 setTimeout(() => {
                     setSuccessResult('')
                 }, 5000)
             } catch (e) {
+                console.log(e);
                 setErrorResult('Something went wrong while sending your message!')
                 setTimeout(() => {
                     setErrorResult('')
