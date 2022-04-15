@@ -3,7 +3,6 @@ import './index.scss';
 import Slider from "../../../components/Slider";
 
 const WorkItem = ({images, title, sourceCodeLink, demoLink}) => {
-    console.log(images.length , "hello")
     return (
         <div className="work-item">
             <Slider

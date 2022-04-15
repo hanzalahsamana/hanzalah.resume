@@ -49,7 +49,6 @@ const ContactForm = () => {
                     setSuccessResult('')
                 }, 5000)
             } catch (e) {
-                console.log(e);
                 setErrorResult('Something went wrong while sending your message!')
                 setTimeout(() => {
                     setErrorResult('')

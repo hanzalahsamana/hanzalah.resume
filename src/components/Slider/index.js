@@ -13,8 +13,6 @@ const Slider = (
     const imageRef = useRef();
     const [img, setImg] = useState(images[0]);
     const [aItem, setAItem] = useState(0);
-    console.log(images.length)
-
     const handleImageChange = (e) => {
 
         let clientX;

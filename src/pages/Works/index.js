@@ -3,6 +3,7 @@ import { projects } from './data';
 import Title from "../common/Title";
 import WorkItem from "./Item";
 import WorksMenu from "./Menu";
+import './index.scss';
 
 const initalState = projects.filter(p => p.type === 'angular');
 
@@ -14,8 +15,6 @@ const Works = () => {
         setSelectedProjects(projects.filter(p => p.type === type));
         setSelectedType(type);
     }
-// console.log(...item)
-
     return (
         <div className="page" id="works">
             <Title>
@@ -34,7 +33,7 @@ const Works = () => {
             <div className="row">
                 {
                     selectedProjects.map(
-                        item => <div className="column" key={item.sourceCodeLink}>
+                        item => <div className="column project-card" key={item.sourceCodeLink}>
                             <WorkItem
                                 {...item}
                             />
