@@ -5,15 +5,18 @@ import WorkItem from "./Item";
 import WorksMenu from "./Menu";
 import './index.scss';
 
-const initalState = projects.filter(p => p.type === 'angular');
 
 const Works = () => {
-    const [selectedProjects, setSelectedProjects] = useState(initalState);
-    const [selectedType, setSelectedType] = useState('angular');
+    const [selectedProjects, setSelectedProjects] = useState(projects);
+    const [selectedType, setSelectedType] = useState('all');
 
     function handleMenuChange(type) {
-        setSelectedProjects(projects.filter(p => p.type === type));
         setSelectedType(type);
+        if(type === "all") {
+            setSelectedProjects(projects);
+        } else {
+            setSelectedProjects(projects.filter(p => p.type === type));
+        }
     }
     return (
         <div className="page" id="works">
@@ -22,10 +25,10 @@ const Works = () => {
             </Title>
             <WorksMenu
                 items={[
-                    'angular',
+                    'all',
                     'react',
                     'react-native',
-                    'ionic'
+                    'angular',
                 ]}
                 selected={selectedType}
                 clicked={handleMenuChange}

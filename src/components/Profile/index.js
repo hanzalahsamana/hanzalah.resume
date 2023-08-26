@@ -6,7 +6,7 @@ import Info from "../Info";
 import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
-import profile from './../../assets/profile.jpg';
+import profile from './../../assets/profile.png';
 
 const Profile = () => {
     const { backgroundImage, type } = useContext(ThemeContext);
@@ -19,14 +19,14 @@ const Profile = () => {
             </div>
             <div className="profile__content">
                 <div className="profile__title">
-                    Saad Qamar
+                    Hanzalah Imran
                 </div>
                 <TypedText
                   dataText={
                       [
-                          'Lead JavaScript Engineer',
+                          'JavaScript Engineer',
                           'Frontend Development',
-                          'Backend Development'
+                          'React Developer'
                       ]
                   }
                 />
@@ -37,12 +37,12 @@ const Profile = () => {
                 <Skills />
             </div>
             <div className="profile__contact">
-                <a href="https://drive.google.com/file/d/1hRNlqyLFOnDLrHDdCMNqQpp-Z3V6_bd_/view?usp=sharing" target="_blank" rel="noreferrer">
+                {/* <a href="https://drive.google.com/file/d/1hRNlqyLFOnDLrHDdCMNqQpp-Z3V6_bd_/view?usp=sharing" target="_blank" rel="noreferrer">
                         <span>
                             Download CV
                         </span>
-                </a>
-                <a href="mailto:saadqamar01@gmail.com">
+                </a> */}
+                <a href="mailto:hanzalahsamana789@gmail.com">
                         <span>
                             Contact Me
                         </span>

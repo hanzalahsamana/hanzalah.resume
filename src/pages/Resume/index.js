@@ -8,15 +8,15 @@ const Resume = () => {
     return (
         <div className="page" id="resume">
             <Title icon={'fa fa-briefcase'}>
-                Resume - Total Commercial Experience {moment().diff('01/02/2018', 'years', true).toFixed(2)} years
+                Resume - Total Commercial Experience {moment().diff('01/01/2021', 'years', true).toFixed(2)} years
             </Title>
             <ResumeItem
-                date={'Feb 2018 – Present'}
-                title={'Lead Software Engineer'}
-                company={'IOMechs'}
+                date={'Nov 2022 – July 2023'}
+                title={'Software Engineer'}
+                company={'Webners'}
                 logo={''}
             >
-                • Work on front-end with extensive use of Angular, React and native JavaScript for developing Website and Hybrid Mobile Apps.
+                • Work on front-end with extensive use of React and native JavaScript for developing Website and Hybrid Mobile Apps.
             </ResumeItem>
             <ResumeItem
                 date={'Feb 2021'}
@@ -24,12 +24,12 @@ const Resume = () => {
                 company={'Pairdesk'}
                 logo={''}
             >
-                • Develop clean, maintainable, and highly interactive single-page web applications using Javascript, TypeScript, Angular, HTML, SASS.
+                • Develop clean, maintainable, and highly interactive single-page web applications using Javascript, TypeScript, React, HTML, SASS.
             </ResumeItem>
             <ResumeItem
-                date={'July 2017 – Jan 2018'}
+                date={'Jan 2021 – Jan 2023'}
                 title={'Full Stack Developer'}
-                company={'Panacloud'}
+                company={'Cluster Valley'}
                 logo={''}
             >
                 • Developed clean, maintainable and highly interactive single page web applications using Javascript, TypeScript, React, HTML, SASS.. <br/>
@@ -40,8 +40,8 @@ const Resume = () => {
                 Education
             </Title>
             <ResumeItem
-                date={'2015 – 2018'}
-                title={'University of Karachi - UBIT'}
+                date={'2022 – present'}
+                title={'Virtual University of Pakistan'}
                 company={'Karachi'}
                 logo={''}
             >

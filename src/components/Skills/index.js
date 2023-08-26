@@ -21,13 +21,13 @@ const Skills = () => {
                 <li id="react">React Native</li>
                 <li id="angular">Angular</li>
                 <li id="react" >React</li>
-                <li id="angular" >Ionic</li>
-                <li id="rxjs">Rxjs</li>
+                <li id="react">Context API</li>
                 <li id="redux">Redux</li>
                 <li id="node">Node</li>
                 <li id="ngrx">Ngrx</li>
                 <li id="vue">Vue</li>
                 <li id="javascript">JavaScript</li>
+                <li id="TypeScript">TypeScript</li>
             </ul>
         </div>
     );

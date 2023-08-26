@@ -81,7 +81,7 @@ const ContactForm = () => {
                     <FormErrorHandler name="message"/>
                 </div>
             </div>
-            <button className="send-message" type="submit">SEND MESSAGE</button>
+            <button className="send-message" type="submit" disabled>SEND MESSAGE</button>
             <div className="contact-form__result">
                 {successResult && <span className="contact-form__scc"> {successResult} </span>}
                 {errorResult && <span className="contact-form__scc"> {errorResult} </span>}

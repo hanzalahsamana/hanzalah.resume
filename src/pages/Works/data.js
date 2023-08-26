@@ -1,5 +1,5 @@
 import Kumity from "../../assets/ProjectsImages/1.png"
-import ICPlan from "../../assets/ProjectsImages/2.png"
+import ICPlan from "../../assets/ProjectsImages/icplan.png"
 import IraqiSouq from "../../assets/ProjectsImages/3.png"
 import FrontierSignal from "../../assets/ProjectsImages/4.png"
 import kzbible from "../../assets/ProjectsImages/5.png"
@@ -18,10 +18,29 @@ import Zonehealthy from "../../assets/ProjectsImages/17.png"
 import QOLDAY from "../../assets/ProjectsImages/18.png"
 import Starget from "../../assets/ProjectsImages/19.png"
 import wholeFoodsMarkets from "../../assets/ProjectsImages/20.jpg"
+import patrola from "../../assets/ProjectsImages/patrola.jpeg"
+import lari from "../../assets/ProjectsImages/lari.jpeg"
+import khana from "../../assets/ProjectsImages/khana.jpeg"
+import foodlab from "../../assets/ProjectsImages/foodlab.jpeg"
+import checkdin from "../../assets/ProjectsImages/checkdin.jpeg"
+
+import chatter from "../../assets/ProjectsImages/chatter.png"
+import foodie from "../../assets/ProjectsImages/foodie.png"
+import trance from "../../assets/ProjectsImages/trance.png"
+import tour from "../../assets/ProjectsImages/tour.png"
+import Sakhawat from "../../assets/ProjectsImages/sakhawat.png"
+
 
 
 
 export const projects = [
+    {
+        title: 'Cerwiz',
+        demoLink: 'https://app.cerwiz.com/login',
+        type: 'react',
+        images: Cerwiz
+    },
+    
     {
         title: 'Team Center',
         demoLink: 'http://team.center/',
@@ -35,42 +54,62 @@ export const projects = [
         images: ICPlan
     },
     {
-        title: 'Iraqi Souq',
-        demoLink: 'http://sdmictiq.com/',
-        type: 'angular',
-        images: IraqiSouq
+        title: 'Client Trips',
+        demoLink: 'https://tripstrade.com/',
+        type: 'react',
+        images: ClientTrip
     },
     {
-        title: 'Frontier Signal',
-        demoLink: 'https://www.frontiersignal.com/',
-        type: 'angular',
-        images: FrontierSignal
+        title: 'Foodie',
+        demoLink: 'https://foodie-application.netlify.app/',
+        type: 'react',
+        images: foodie
     },
     {
-        title: 'kzbible',
-        demoLink: 'https://kzbible-dev.web.app/auth/login',
-        type: 'angular',
-        images: kzbible
+        title: 'Sakhaawat',
+        demoLink: 'https://sakhaawat.netlify.app/',
+        type: 'react',
+        images: Sakhawat
     },
     {
-        title: 'kzbible Feedback',
-        demoLink: 'https://kz-bible-feedback-dev.web.app',
-        type: 'angular',
-        images: kzbibleFeedback
+        title: 'Trance',
+        demoLink: 'https://new-trance-project.web.app/home',
+        type: 'react',
+        images: trance
     },
     {
-        title: 'Ayat-Today',
-        demoLink: ' https://chrome.google.com/webstore/detail/ayattoday/nmebafllopknoonpbddekobjcmhpnejf?hl=en',
-        type: 'angular',
-        images: AyatToday
+        title: 'Tour guide',
+        demoLink: '#',
+        type: 'react',
+        images: tour
     },
-        {
+    {
+        title: 'chatter',
+        demoLink: '#',
+        type: 'react',
+        images: chatter
+    },
+  
+    {
+        title: 'OMB (oh my brand)',
+        demoLink: 'https://omb-shop.com/',
+        type: 'react',
+        images: OMB
+    },
+    {
+        title: 'Kumity',
+        demoLink: '#',
+        type: 'react',
+        images: Kumity
+    },
+  
+    {
         title: 'Wholesome2go',
         demoLink: 'https://www.wholesome2go.com/',
         type: 'angular',
         images: Wholesome2go
     },
-            {
+    {
         title: 'Zonehealthy',
         demoLink: ' http://zonehealthy.com/',
         type: 'angular',
@@ -82,76 +121,42 @@ export const projects = [
         type: 'react-native',
         images: Estenarh
     },
+
     {
-        title: 'Onege',
-        demoLink: 'https://play.google.com/store/apps/details?id=com.onege',
+        title: 'Laari',
+        demoLink: '$',
         type: 'react-native',
-        images: kzbibleFeedback
+        images: lari
     },
     {
-        title: 'Uchet',
-        demoLink: 'https://play.google.com/store/apps/details?id=com.uchet.ar&hl=en',
-        type: 'react-native',
-        images: Uchet
-    },
-    {
-        title: 'Iraqi Souq Mobile',
-        demoLink: 'https://drive.google.com/file/d/1Do0pa_E9VCZ800butWvuwMhJq6IoeCvW/view?usp=sharing',
-        type: 'react-native',
-        images: IraqiSouqMobile
-    },
-    {
-        title: 'QOLDAY',
+        title: 'Patrola',
         demoLink: '#',
         type: 'react-native',
-        images: QOLDAY
+        images: patrola
     },
-        {
-        title: 'whole-foods-markets',
+    {
+        title: 'Checkdin',
         demoLink: '#',
         type: 'react-native',
-        images: wholeFoodsMarkets
+        images: checkdin
     },
-        {
+    {
+        title: 'foodlab',
+        demoLink: '#',
+        type: 'react-native',
+        images: foodlab
+    },
+    {
+        title: 'khana App',
+        demoLink: '#',
+        type: 'react-native',
+        images: khana
+    },
+    {
         title: 'Kid Running',
         demoLink: '#',
         type: 'react-native',
         images: KidRunning
     },
-    {
-        title: 'Team Center',
-        demoLink: 'https://play.google.com/store/apps/details?id=com.team.center',
-        type: 'ionic',
-        images: TeamCenter
-    },
-      {
-        title: 'Starget',
-        demoLink: '#',
-        type: 'ionic',
-        images: Starget
-    },
-    {
-        title: 'Cerwiz',
-        demoLink: 'https://app.cerwiz.com/login',
-        type: 'react',
-        images: Cerwiz
-    },
-    {
-        title: 'Client Trips',
-        demoLink: 'https://tripstrade.com/',
-        type: 'react',
-        images: ClientTrip
-    },
-    {
-        title: 'OMB (oh my brand)',
-        demoLink: 'https://omb-shop.com/',
-        type: 'react',
-        images: OMB
-    },
-        {
-        title: 'Kumity',
-        demoLink: '#',
-        type: 'react',
-        images: Kumity
-    },
+  
 ]
