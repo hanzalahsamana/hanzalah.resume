@@ -23,17 +23,51 @@ import lari from "../../assets/ProjectsImages/lari.jpeg"
 import khana from "../../assets/ProjectsImages/khana.jpeg"
 import foodlab from "../../assets/ProjectsImages/foodlab.jpeg"
 import checkdin from "../../assets/ProjectsImages/checkdin.jpeg"
-
+import rentAUnit from "../../assets/ProjectsImages/rent-a-unit.png"
 import chatter from "../../assets/ProjectsImages/chatter.png"
 import foodie from "../../assets/ProjectsImages/foodie.png"
 import trance from "../../assets/ProjectsImages/trance.png"
 import tour from "../../assets/ProjectsImages/tour.png"
 import Sakhawat from "../../assets/ProjectsImages/sakhawat.png"
+import Astric from "../../assets/ProjectsImages/Astric.png"
+import fictionGinie from "../../assets/ProjectsImages/fictionGinei.png"
+import Finsol from "../../assets/ProjectsImages/Finsol.png"
+import Masbia from "../../assets/ProjectsImages/Masbia.png"
 
 
 
 
 export const projects = [
+    {
+        title: 'Finsol',
+        demoLink: 'https://finsol.vercel.app/',
+        type: 'react',
+        images: Finsol
+    },
+    {
+        title: 'Masbia',
+        demoLink: 'https://masbiaa.netlify.app/',
+        type: 'react',
+        images: Masbia
+    },
+    {
+        title: 'Astric',
+        demoLink: 'https://app.cerwiz.com/login',
+        type: 'react',
+        images: Astric
+    },
+    {
+        title: 'Rent a Unit',
+        demoLink: 'https://rentaunit.netlify.app',
+        type: 'react',
+        images:rentAUnit
+    },
+    {
+        title: 'Fiction Ginie',
+        demoLink: 'https://www.fictiongenie.com/',
+        type: 'react',
+        images: fictionGinie
+    },
     {
         title: 'Cerwiz',
         demoLink: 'https://app.cerwiz.com/login',
