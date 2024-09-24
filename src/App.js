@@ -16,7 +16,7 @@ import Resume from "./pages/Resume";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
 import BackToTop from "./components/BackToTop";
-
+ // eslint-disable-next-line
 const routes = [
     { path: '/', name: 'About', Component: About },
     { path: '/resume', name: 'Resume', Component: Resume }

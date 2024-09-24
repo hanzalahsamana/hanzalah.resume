@@ -21,7 +21,7 @@ const SocialLinks = () => {
 };
 
 
-
+ // eslint-disable-next-line
 SocialLinks.Link = ({url, type}) => <a href={url} target="_blank" ><span className={`fab fa-${type}`} /></a>
 ;
 
