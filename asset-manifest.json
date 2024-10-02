@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hanzalah.resume/static/css/main.713264d0.css",
-    "main.js": "/hanzalah.resume/static/js/main.091b8447.js",
+    "main.js": "/hanzalah.resume/static/js/main.911207ff.js",
     "static/js/488.b6a0dcfe.chunk.js": "/hanzalah.resume/static/js/488.b6a0dcfe.chunk.js",
     "static/media/foodie.png": "/hanzalah.resume/static/media/foodie.b82e0c0513f523bb83fb.png",
     "static/media/15.png": "/hanzalah.resume/static/media/15.851d15317b9017014eca.png",
@@ -35,14 +35,15 @@
     "static/media/ngrx.png": "/hanzalah.resume/static/media/ngrx.b49f3c628a82faf13803.png",
     "static/media/redux.jpg": "/hanzalah.resume/static/media/redux.4516fe25edbc988a447e.jpg",
     "static/media/vue.jpeg": "/hanzalah.resume/static/media/vue.17c4554ac71d3e8708d4.jpeg",
+    "static/media/University.png": "/hanzalah.resume/static/media/University.aed9eaee0361c02fe22b.png",
     "static/media/react.png": "/hanzalah.resume/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/hanzalah.resume/index.html",
     "main.713264d0.css.map": "/hanzalah.resume/static/css/main.713264d0.css.map",
-    "main.091b8447.js.map": "/hanzalah.resume/static/js/main.091b8447.js.map",
+    "main.911207ff.js.map": "/hanzalah.resume/static/js/main.911207ff.js.map",
     "488.b6a0dcfe.chunk.js.map": "/hanzalah.resume/static/js/488.b6a0dcfe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.713264d0.css",
-    "static/js/main.091b8447.js"
+    "static/js/main.911207ff.js"
   ]
 }
