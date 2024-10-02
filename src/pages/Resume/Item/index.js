@@ -18,7 +18,7 @@ const ResumeItem = ({date, title, company, children, logo, classNames = ''}) => 
                         </h3>
                     </div>
                 </div>
-                {/* <img src={logo} alt=""/> */}
+                <img src={logo} alt=""/>
             </div>
             <p className="resume-item__desc">
                 {children}
