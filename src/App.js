@@ -22,7 +22,7 @@ function App() {
             <BackToTop />
             <div className="page-wrap">
                 <BgBubbles />
-                <Router basename="/hanzalah.resume"> {/* Set the basename for GitHub Pages */}
+                <Router basename="/hanzalah.resume"> {/* Add basename for GitHub Pages */}
                     <div className="container">
                         <Menu />
                         <Profile />
@@ -40,7 +40,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
             classNames="transition"
             timeout={1000}
             unmountOnExit
-            key={location.pathname} // Use location.pathname for unique keys in transitions
+            key={location.pathname}
         >
             <Switch location={location}>
                 <Route exact path="/about" component={About} />
@@ -50,7 +50,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
                 <Route exact path="/">
                     <Redirect to="/about" />
                 </Route>
-                <Route exact path="*">
+                <Route path="*">
                     <Redirect to="/about" />
                 </Route>
             </Switch>
