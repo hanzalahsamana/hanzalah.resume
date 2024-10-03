@@ -10,6 +10,7 @@ import Cluster from '../../assets/logos/cluster_valley_logo.png'
 import noodev_logo from '../../assets/logos/noodev_logo.png'
 import webners from '../../assets/logos/webners.png'
 import Astric from '../../assets/logos/Astric.png'
+import Webary from '../../assets/logos/webary.png'
 import university from '../../assets/logos/University.png'
 
 const Resume = () => {
@@ -20,11 +21,11 @@ const Resume = () => {
             </Title>
             <ResumeItem
                 date={'Aug 2022 – Present'}
-                title={'Managing Director (CEO)'}
+                title={'Team Lead'}
                 company={'Xperiode'}
                 logo={Xperiode}
             >
-                • Oversee company operations and strategic direction as CEO. <br />
+                • Oversee company operations and strategic direction. <br />
                 • Lead full-stack development initiatives to drive innovative solutions. <br />
                 • Foster collaboration across teams to achieve business goals. <br />
             </ResumeItem>
@@ -38,6 +39,16 @@ const Resume = () => {
                 • Provide freelance full-stack development services with expertise in React.js and Node.js. <br />
                 • Develop responsive applications using React Native and implement REST APIs. <br />
                 • Maintain top-rated status through high-quality work and client satisfaction. <br />
+            </ResumeItem>
+            <ResumeItem
+                date={'Apr 2023 – Dec 2023'}
+                title={'Software Engineer'}
+                company={'Webary'}
+                logo={Webary}
+            >
+                • Developed responsive, interactive web applications using React.js and JavaScript. <br />
+                • Integrated backend services with REST APIs for seamless data flow. <br />
+                • Collaborated with designers and other developers to ensure high-quality user experiences. <br />
             </ResumeItem>
 
             <ResumeItem
