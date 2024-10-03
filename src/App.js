@@ -1,26 +1,20 @@
 import React from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import BgBubbles from "./components/BgBubbles";
 import Profile from "./components/Profile";
-
 import Menu from "./components/Menu";
 import About from "./pages/About";
-
-import {
-    HashRouter as Router,
-    Switch,
-    Route,
-    withRouter
-} from "react-router-dom";
 import Resume from "./pages/Resume";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
 import BackToTop from "./components/BackToTop";
- // eslint-disable-next-line
-const routes = [
-    { path: '/', name: 'About', Component: About },
-    { path: '/resume', name: 'Resume', Component: Resume }
-]
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Redirect,
+    withRouter
+} from "react-router-dom";
 
 function App() {
     return (
@@ -28,7 +22,7 @@ function App() {
             <BackToTop />
             <div className="page-wrap">
                 <BgBubbles />
-                <Router>
+                <Router basename="/hanzalah.resume"> {/* Set the basename for GitHub Pages */}
                     <div className="container">
                         <Menu />
                         <Profile />
@@ -40,30 +34,28 @@ function App() {
     );
 }
 
-const AnimatedRoutes = withRouter(({ location }) =>
+const AnimatedRoutes = withRouter(({ location }) => (
     <TransitionGroup className="transition-wrapper">
         <CSSTransition
             classNames="transition"
             timeout={1000}
             unmountOnExit
-            key={location.pathname}
+            key={location.pathname} // Use location.pathname for unique keys in transitions
         >
-            <Switch>
+            <Switch location={location}>
+                <Route exact path="/about" component={About} />
+                <Route exact path="/works" component={Works} />
+                <Route exact path="/resume" component={Resume} />
+                <Route exact path="/contact" component={Contact} />
                 <Route exact path="/">
-                    <About />
+                    <Redirect to="/about" />
                 </Route>
-                <Route exact path="/works">
-                    <Works />
-                </Route>
-                <Route exact path="/resume">
-                    <Resume />
-                </Route>
-                <Route exact path="/contact">
-                    <Contact />
+                <Route exact path="*">
+                    <Redirect to="/about" />
                 </Route>
             </Switch>
         </CSSTransition>
     </TransitionGroup>
-);
+));
 
 export default App;
